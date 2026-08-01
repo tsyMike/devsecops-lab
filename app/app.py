@@ -18,3 +18,4 @@ def evaluar():
     return str(eval(expresion))
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
+TEST_TOKEN = "ghp_123456789012345678901234567890123456"
