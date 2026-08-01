@@ -23,4 +23,5 @@ def evaluar():
     return jsonify({"mensaje": "Operación no permitida por políticas de seguridad"}), 400
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080)
+    # Solución SAST: Escuchar únicamente en localhost (127.0.0.1)
+    app.run(host="127.0.0.1", port=8080)
